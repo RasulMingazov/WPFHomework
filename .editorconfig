@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
+dotnet_diagnostic.CS8600.severity = none
+
+# Default severity for analyzer diagnostics with category 'CodeQuality'
+dotnet_analyzer_diagnostic.category-CodeQuality.severity = silent
